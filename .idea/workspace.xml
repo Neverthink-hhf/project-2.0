@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3758f2bb-253a-42f7-8e34-fcc04b023d1c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Project_1.6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_1.6/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project_1.6/target/classes/com/ETL/Parquet2json$$anonfun$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project_1.6/target/classes/com/ETL/Parquet2json$$anonfun$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project_1.6/target/classes/com/ETL/Parquet2json$$anonfun$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project_1.6/target/classes/com/ETL/Parquet2json$$anonfun$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project_1.6/target/classes/com/ETL/Parquet2json$$typecreator1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project_1.6/target/classes/com/ETL/Parquet2json$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project_1.6/target/classes/com/ETL/Parquet2json.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project_1.6/target/classes/com/ETL/txt2Parquet$$anonfun$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project_1.6/target/classes/com/ETL/txt2Parquet$$anonfun$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project_1.6/target/classes/com/ETL/txt2Parquet$$anonfun$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project_1.6/target/classes/com/ETL/txt2Parquet$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project_1.6/target/classes/com/ETL/txt2Parquet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project_1.6/target/classes/com/utils/SchemaUtils$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project_1.6/target/classes/com/utils/SchemaUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project_1.6/target/classes/com/utils/Utils2Type$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project_1.6/target/classes/com/utils/Utils2Type.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -34,12 +18,12 @@
     <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/ETL/Parquet2json.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+            <state relative-caret-position="299">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
             </state>
           </provider>
         </entry>
@@ -47,7 +31,7 @@
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -63,8 +47,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="307" />
-    <option name="width" value="1059" />
+    <option name="x" value="390" />
+    <option name="width" value="749" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -73,8 +57,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -121,6 +103,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -133,7 +117,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -158,6 +142,8 @@
       <option name="presentableId" value="Default" />
       <updated>1566358606815</updated>
       <workItem from="1566358608172" duration="2242000" />
+      <workItem from="1566365583017" duration="600000" />
+      <workItem from="1566453880095" duration="49000" />
     </task>
     <task id="LOCAL-00001" summary="Project-2.0">
       <created>1566358991312</created>
@@ -177,19 +163,18 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2242000" />
+    <option name="totallyTimeSpent" value="2891000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="307" y="0" width="1059" height="735" extended-state="0" />
+    <frame x="235" y="0" width="1059" height="735" extended-state="0" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.25576732" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.2657974" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" />
       <window_info anchor="bottom" x="636" y="278" width="706" height="178" id="Terminal" order="2" weight="0.29716194" />
@@ -203,7 +188,7 @@
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" weight="0.32888147" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Database" order="1" weight="0.3286119" />
       <window_info anchor="right" id="Theme Preview" order="2" />
@@ -213,20 +198,25 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.24929178" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+      <path value="$PROJECT_DIR$/project-2.0" />
+    </ignored-roots>
     <MESSAGE value="Project-2.0" />
     <option name="LAST_COMMIT_MESSAGE" value="Project-2.0" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/ETL/Parquet2json.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        <state relative-caret-position="299">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
         </state>
       </provider>
     </entry>

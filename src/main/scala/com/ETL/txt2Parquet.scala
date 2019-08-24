@@ -2,7 +2,7 @@ package com.ETL
 
 import com.utils.{SchemaUtils, Utils2Type}
 import org.apache.spark.rdd.RDD
-import org.apache.spark.sql.{Row, SQLContext}
+import org.apache.spark.sql.{Row, SQLContext, SparkSession}
 import org.apache.spark.{SparkConf, SparkContext}
 
 object txt2Parquet {
@@ -25,13 +25,13 @@ object txt2Parquet {
     // 3.设置序列化方式，采用Kyro方式，比默认序列化方式高
       .set("spark.serializer","org.apache.spark.serializer.KryoSerializer")
 
+    val sc = new SparkContext(conf)
     // 4.创建执行入口
 
-    val sc = new SparkContext(conf)
-    val sQLContext = new SQLContext(sc)
+    val spark = SparkSession.builder().config(conf).getOrCreate()
 
     // 5.设置压缩方式，使用Snappy方式进行压缩
-    sQLContext.setConf("spark.sql.parquet.compression.codec", "snappy")
+//    sQLContext.setConf("spark.sql.parquet.compression.codec", "snappy")
 
     // 6.数据读取分析处理
     val lines: RDD[String] = sc.textFile(inputPath)
@@ -135,10 +135,12 @@ object txt2Parquet {
     })
 
     // 9.构建DF
-    val df = sQLContext.createDataFrame(rowRDD,SchemaUtils.structtype)
+    val df = spark.createDataFrame(rowRDD,SchemaUtils.structtype)
+
+    df.show()
 
     // 10.保存数据
-    df.write.parquet(outputPath)
+//    df.write.parquet(outputPath)
     sc.stop()
   }
 }

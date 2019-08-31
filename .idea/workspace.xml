@@ -2,55 +2,89 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3758f2bb-253a-42f7-8e34-fcc04b023d1c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dir/cmcc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/Res/RechargeRes.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/data/CollectLog10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/utils/Kafka2Streaming.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/utils/OffSetUtil.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/test/test.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dir/JsonTest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/logs/CollectLog_test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/Res/Kafka_Streaming.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/utils/ConnectPoolUtils.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/utils/Request2MysqlUtils.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/utils/ResultUtils.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/utils/get_request.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Res/Kafka_Streaming$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Res/Kafka_Streaming$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Res/Kafka_Streaming$$anonfun$main$1$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Res/Kafka_Streaming$$anonfun$main$1$$anonfun$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Res/Kafka_Streaming$$anonfun$main$1$$anonfun$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Res/Kafka_Streaming$$anonfun$main$1$$anonfun$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Res/Kafka_Streaming$$anonfun$main$1$$anonfun$apply$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Res/Kafka_Streaming$$anonfun$main$1$$anonfun$apply$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Res/Kafka_Streaming$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Res/Kafka_Streaming$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Res/Kafka_Streaming.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/ConnectPoolUtils$$anonfun$getConnections$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/ConnectPoolUtils$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/ConnectPoolUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/Request2MysqlUtils$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/Request2MysqlUtils$$anonfun$4$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/Request2MysqlUtils$$anonfun$4$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/Request2MysqlUtils$$anonfun$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/Request2MysqlUtils$$anonfun$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/Request2MysqlUtils$$anonfun$result01$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/Request2MysqlUtils$$anonfun$result02$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/Request2MysqlUtils$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/Request2MysqlUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/ResultUtils$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/ResultUtils$$anonfun$2$$anonfun$apply$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/ResultUtils$$anonfun$2$$anonfun$apply$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/ResultUtils$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/ResultUtils$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/ResultUtils$$anonfun$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/ResultUtils$$anonfun$5$$anonfun$apply$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/ResultUtils$$anonfun$5$$anonfun$apply$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/ResultUtils$$anonfun$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/ResultUtils$$anonfun$Result01$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/ResultUtils$$anonfun$result02$1$$anonfun$apply$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/ResultUtils$$anonfun$result02$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/ResultUtils$$anonfun$result03$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/ResultUtils$$anonfun$result04$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/ResultUtils$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/ResultUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/get_request$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/get_request$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/get_request$$anonfun$main$1$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/get_request$$anonfun$main$1$$anonfun$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/get_request$$anonfun$main$1$$anonfun$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/get_request$$anonfun$main$1$$anonfun$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/get_request$$anonfun$main$1$$anonfun$apply$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/get_request$$anonfun$main$1$$anonfun$apply$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/get_request$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/get_request$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/get_request.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/logs/CollectLog10.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/logs/CollectLog_test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/test/test$$anonfun$main$1$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/test/test$$anonfun$main$1$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/test/test$$anonfun$main$1$$anonfun$apply$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/test/test$$anonfun$main$1$$anonfun$apply$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/test/JedisConnectionPool.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/data/JedisConnectionPool.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/test/JedisOffset.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/data/JedisOffset.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/test/KafkaRedisOffset.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/data/KafkaRedisOffset.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ETL/Parquet2json$$anonfun$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ETL/Parquet2json$$anonfun$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ETL/Parquet2json$$anonfun$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ETL/Parquet2json$$anonfun$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ETL/Parquet2json$$typecreator3$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ETL/Parquet2json$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ETL/Parquet2json.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ETL/txt2Parquet$$anonfun$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ETL/txt2Parquet$$anonfun$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ETL/txt2Parquet$$anonfun$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ETL/txt2Parquet$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ETL/txt2Parquet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Rpt/LocationRpt$$anonfun$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Rpt/LocationRpt$$anonfun$2$$anonfun$apply$1$$anonfun$apply$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Rpt/LocationRpt$$anonfun$2$$anonfun$apply$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Rpt/LocationRpt$$anonfun$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Rpt/LocationRpt$$anonfun$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Rpt/LocationRpt$$anonfun$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Rpt/LocationRpt$$typecreator2$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Rpt/LocationRpt$$typecreator5$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Rpt/LocationRpt$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Rpt/LocationRpt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Rpt/LocationRpt_sql$$anonfun$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Rpt/LocationRpt_sql$$typecreator3$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Rpt/LocationRpt_sql$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Rpt/LocationRpt_sql.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/utils/RedisUtils$$anonfun$write$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/utils/RedisUtils$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/utils/RedisUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/utils/RptUtils$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/utils/RptUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/utils/SchemaUtils$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/utils/SchemaUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/utils/Tag.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/utils/TagUtils$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/utils/TagUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/utils/Utils2Type$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/utils/Utils2Type.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/Res/RechargeRes.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/Res/RechargeRes.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/data/CollectLog10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logs/CollectLog10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/utils/Kafka2Streaming.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/utils/Kafka2Streaming.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/test/test.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/test/test.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Res/RechargeRes$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Res/RechargeRes$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/data/CollectLog10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/utils/Kafka2Streaming$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/utils/Kafka2Streaming$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/utils/Kafka2Streaming$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/utils/Kafka2Streaming$$anonfun$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/utils/Kafka2Streaming$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/utils/Kafka2Streaming$$anonfun$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/utils/Kafka2Streaming$$anonfun$main$1$$anonfun$apply$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/utils/Kafka2Streaming$$anonfun$main$1$$anonfun$apply$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/utils/Kafka2Streaming$$anonfun$main$1$$anonfun$apply$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/utils/Kafka2Streaming$$anonfun$main$1$$anonfun$apply$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/utils/Kafka2Streaming$$anonfun$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/utils/Kafka2Streaming$$anonfun$main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/utils/Kafka2Streaming$$anonfun$main$2$$anonfun$apply$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/utils/Kafka2Streaming$$anonfun$main$2$$anonfun$apply$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/utils/Kafka2Streaming$$anonfun$main$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/utils/Kafka2Streaming$$anonfun$main$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/utils/Kafka2Streaming$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/utils/Kafka2Streaming$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/test$$anonfun$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/test$$anonfun$main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/test$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/test$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/test$.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -66,31 +100,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/data/KafkaRedisOffset.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/utils/get_request.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1562">
-              <caret line="79" column="9" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/data/CollectLog10.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/utils/Kafka2Streaming.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
+            <state relative-caret-position="2288">
+              <caret line="115" column="77" selection-start-line="115" selection-start-column="77" selection-end-line="115" selection-end-column="77" />
               <folding>
                 <element signature="e#19#35#0" expanded="true" />
               </folding>
@@ -98,31 +111,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/Res/RechargeRes.scala">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/utils/Request2MysqlUtils.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/data/JedisConnectionPool.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="26" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/utils/OffSetUtil.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+            <state relative-caret-position="460">
+              <caret line="80" column="31" selection-start-line="80" selection-start-column="31" selection-end-line="80" selection-end-column="31" />
               <folding>
-                <element signature="e#19#69#0" expanded="true" />
+                <element signature="e#19#66#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/test/test.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-126">
+              <caret line="100" column="32" selection-start-line="100" selection-start-column="32" selection-end-line="100" selection-end-column="32" />
+              <folding>
+                <element signature="e#14#30#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -141,6 +148,8 @@
     <findStrings>
       <find>hadoop-client</find>
       <find>pri</find>
+      <find>jdbc</find>
+      <find>mysql</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -153,7 +162,6 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/utils/Tag.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/Rpt/LocationRpt.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/Rpt/LocationRpt_sql.scala" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/scala/scriptFile.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/test/JedisOffset.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/test/com/test1/scriptFile.scala" />
@@ -167,16 +175,30 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/ETL/Json2Array.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/utils/Json2Array.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/utils/Json2ArrayUtils.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/test/test.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/ETL/DataETL.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/utils/Json2JSONArrayUtils.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/Context.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/utils/GetDataUtils.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/Res/Recharge.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/data/KafkaRedisOffset.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/utils/OffSetUtil.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/Res/RechargeRes.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/utils/Kafka2Streaming.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/data/KafkaRedisOffset.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/utils/Res2Jedis.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/test/JedisAPP.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/Res/RechargeRes.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/test/a.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/utils/ConnectPoolUtils.scala" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/logs/CollectLog11.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/test/KafkaRedisOffset.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/test/tset.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/logs/CollectLog_test.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/Res/Kafka_Streaming.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/utils/ResultUtils.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/logs/CollectLog10.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/utils/Request2MysqlUtils.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/utils/get_request.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/test/test.scala" />
       </list>
     </option>
   </component>
@@ -205,9 +227,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="500" />
-    <option name="width" value="955" />
-    <option name="height" value="735" />
+    <option name="x" value="68" />
+    <option name="y" value="1" />
+    <option name="width" value="1192" />
+    <option name="height" value="697" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -271,11 +294,6 @@
             <path>
               <item name="project-2.0" type="b2602c69:ProjectViewProjectNode" />
               <item name="Project_2.0" type="462c0819:PsiDirectoryNode" />
-              <item name="dir" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project-2.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project_2.0" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -283,6 +301,28 @@
               <item name="Project_2.0" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project-2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project_2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project-2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project_2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project-2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project_2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="project-2.0" type="b2602c69:ProjectViewProjectNode" />
@@ -330,6 +370,8 @@
               <item name="project-2.0" type="b2602c69:ProjectViewProjectNode" />
               <item name="Project_2.0" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -343,7 +385,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/scala/com/utils" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dir" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -352,15 +394,20 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="test" />
+      <recent name="logs" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\= =\项目\workplace\Project_2.0\src\main\scala\com\utils" />
       <recent name="E:\= =\项目\workplace\Project_2.0\dir" />
+      <recent name="E:\= =\项目\workplace\Project_2.0\src\main\scala\com\utils" />
       <recent name="E:\= =\项目\workplace\Project_2.0\src\main\scala\test" />
       <recent name="E:\= =\项目\workplace\Project_2.0\src\main\scala" />
       <recent name="E:\= =\项目\workplace\Project_2.0\src\main\scala\com" />
@@ -378,13 +425,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RechargeRes">
-    <configuration name="CollectLog10 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.data.CollectLog10" />
+  <component name="RunManager" selected="Application.test">
+    <configuration name="CollectLog10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="logs.CollectLog10" />
       <module name="project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.data.*" />
+          <option name="PATTERN" value="logs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -392,33 +439,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Context" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.Context" />
-      <module name="project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Kafka2Streaming" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.utils.Kafka2Streaming" />
-      <module name="project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KafkaRedisOffset (1)" type="Application" factoryName="Application" temporary="true">
+    <configuration name="KafkaRedisOffset" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.data.KafkaRedisOffset" />
       <module name="project" />
       <extension name="coverage">
@@ -431,12 +452,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RechargeRes" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.Res.RechargeRes" />
+    <configuration name="Kafka_Streaming" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.Res.Kafka_Streaming" />
       <module name="project" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.Res.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="get_request" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.utils.get_request" />
+      <module name="project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="test.test" />
+      <module name="project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -538,19 +585,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CollectLog10 (1)" />
-      <item itemvalue="Application.Context" />
-      <item itemvalue="Application.KafkaRedisOffset (1)" />
-      <item itemvalue="Application.Kafka2Streaming" />
-      <item itemvalue="Application.RechargeRes" />
+      <item itemvalue="Application.CollectLog10" />
+      <item itemvalue="Application.Kafka_Streaming" />
+      <item itemvalue="Application.test" />
+      <item itemvalue="Application.KafkaRedisOffset" />
+      <item itemvalue="Application.get_request" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RechargeRes" />
-        <item itemvalue="Application.Kafka2Streaming" />
-        <item itemvalue="Application.CollectLog10 (1)" />
-        <item itemvalue="Application.KafkaRedisOffset (1)" />
-        <item itemvalue="Application.Context" />
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.get_request" />
+        <item itemvalue="Application.CollectLog10" />
+        <item itemvalue="Application.Kafka_Streaming" />
+        <item itemvalue="Application.KafkaRedisOffset" />
       </list>
     </recent_temporary>
   </component>
@@ -573,7 +620,13 @@
       <workItem from="1566548677629" duration="2448000" />
       <workItem from="1566609539523" duration="2227000" />
       <workItem from="1566955446724" duration="34707000" />
-      <workItem from="1567040416979" duration="1355000" />
+      <workItem from="1567040416979" duration="23559000" />
+      <workItem from="1567081593179" duration="7688000" />
+      <workItem from="1567125968379" duration="13758000" />
+      <workItem from="1567153458439" duration="58000" />
+      <workItem from="1567156337710" duration="10685000" />
+      <workItem from="1567182692222" duration="1093000" />
+      <workItem from="1567213049634" duration="820000" />
     </task>
     <task id="LOCAL-00001" summary="Project-2.0">
       <created>1566358991312</created>
@@ -610,15 +663,21 @@
       <option name="project" value="LOCAL" />
       <updated>1566955805229</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Project-2.0">
+      <created>1567041955820</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1567041955820</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46641000" />
+    <option name="totallyTimeSpent" value="102947000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="579" y="0" width="876" height="735" extended-state="0" />
-    <editor active="true" />
+    <frame x="68" y="1" width="1192" height="697" extended-state="0" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
@@ -626,16 +685,16 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="6" weight="0.26153848" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.2318584" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" weight="0.32998326" />
       <window_info anchor="bottom" x="636" y="278" width="706" height="178" id="Terminal" order="2" weight="0.29716194" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
       <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.50087565" side_tool="true" weight="0.29313233" />
-      <window_info anchor="bottom" id="Messages" order="5" weight="0.32998326" />
+      <window_info anchor="bottom" id="Messages" order="5" weight="0.32663316" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
-      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.49912435" weight="0.35343385" />
+      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.49912435" weight="0.31825796" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.50586265" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -706,26 +765,9 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/utils/Tag.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/utils/Utils2Type.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/scriptFile.scala" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="208" column="3" selection-start-line="208" selection-start-column="3" selection-end-line="208" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/test/com/test1/scriptFile.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/Receiver/receiver.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/ETL/Json2Array.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/test/test.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="29" />
-          <folding>
-            <element signature="e#14#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dir/cmcc.json">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -739,13 +781,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/utils/GetDataUtils.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/utils/Json2JSONArrayUtils.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/Res/Recharge.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/data/JedisOffset.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-21">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://E:/MavenRepoistry/mavenRepoistry/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar!/scala/runtime/Tuple3Zipped.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
@@ -760,40 +795,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/data/KafkaRedisOffset.scala">
+    <entry file="jar://E:/MavenRepoistry/mavenRepoistry/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar!/scala/collection/immutable/List.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1562">
-          <caret line="79" column="9" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
+        <state relative-caret-position="-141">
+          <caret line="94" column="6" selection-start-line="94" selection-start-column="6" selection-end-line="94" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/data/CollectLog10.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/Res/RechargeRes.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/data/JedisConnectionPool.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/test/JedisAPP.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/utils/OffSetUtil.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
+        <state relative-caret-position="22">
           <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
           <folding>
             <element signature="e#19#69#0" expanded="true" />
@@ -801,12 +813,140 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/test/a.scala" />
+    <entry file="file://$PROJECT_DIR$/dir/JsonTest.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/Res/RechargeRes.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/sql/Statement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-200">
+          <caret line="89" column="8" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/utils/ConnectPoolUtils.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/sql/Connection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="103" column="14" selection-start-line="103" selection-start-column="14" selection-end-line="103" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/data/JedisOffset.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/data/JedisConnectionPool.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/logs/CollectLog_test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/data/KafkaRedisOffset.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="88" selection-start-line="18" selection-start-column="4" selection-end-line="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/logs/CollectLog10.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/utils/ResultUtils.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3168">
+          <caret line="164" selection-start-line="164" selection-end-line="164" />
+          <folding>
+            <element signature="e#19#77#0" expanded="true" />
+            <element signature="e#315#917#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/utils/Kafka2Streaming.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
+        <state relative-caret-position="782">
+          <caret line="114" column="29" selection-start-line="114" selection-start-column="29" selection-end-line="114" selection-end-column="29" />
           <folding>
             <element signature="e#19#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/Res/Kafka_Streaming.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="107" column="57" lean-forward="true" selection-start-line="106" selection-start-column="12" selection-end-line="107" selection-end-column="57" />
+          <folding>
+            <element signature="e#17#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-594">
+          <caret line="58" selection-start-line="58" selection-end-line="62" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/utils/get_request.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2288">
+          <caret line="115" column="77" selection-start-line="115" selection-start-column="77" selection-end-line="115" selection-end-column="77" />
+          <folding>
+            <element signature="e#19#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/test/test.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-126">
+          <caret line="100" column="32" selection-start-line="100" selection-start-column="32" selection-end-line="100" selection-end-column="32" />
+          <folding>
+            <element signature="e#14#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/utils/Request2MysqlUtils.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="80" column="31" selection-start-line="80" selection-start-column="31" selection-end-line="80" selection-end-column="31" />
+          <folding>
+            <element signature="e#19#66#0" expanded="true" />
           </folding>
         </state>
       </provider>

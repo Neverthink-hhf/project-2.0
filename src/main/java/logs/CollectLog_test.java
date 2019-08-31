@@ -1,4 +1,4 @@
-package com.data;
+package logs;
 
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.Producer;
@@ -12,7 +12,7 @@ import java.util.Properties;
 /**
  * 发送数据（生产者）
  */
-public class CollectLog10 {
+public class CollectLog_test {
    public static void main(String[] args){
        //这个是用来配置kafka的参数
        Properties prop = new Properties();
@@ -29,13 +29,13 @@ public class CollectLog10 {
            BufferedReader bf = new BufferedReader(
                    new FileReader(
                            new File(
-                                   "dir/cmcc.json")));// 路径
+                                   "dir/JsonTest.json")));// 路径
            String line = null;
            while((line=bf.readLine())!=null){
-               Thread.sleep(1000);
+               Thread.sleep(10);
                producer.send(
                        new ProducerRecord<String, String>(
-                               "test", line));
+                               "JsonData", line));
            }
            bf.close();
            producer.close();

@@ -7,13 +7,16 @@ import com.data.{JedisConnectionPool, JedisOffset}
 import org.apache.kafka.clients.consumer.ConsumerRecord
 import org.apache.kafka.common.TopicPartition
 import org.apache.kafka.common.serialization.StringDeserializer
-import org.apache.spark.{HashPartitioner, SparkConf}
+import org.apache.spark.{SparkConf}
 import org.apache.spark.streaming.dstream.{DStream, InputDStream}
 import org.apache.spark.streaming.kafka010.{ConsumerStrategies, HasOffsetRanges, KafkaUtils, LocationStrategies}
 import org.apache.spark.streaming.{Seconds, StreamingContext}
 
 object Kafka2Streaming {
   def main(args: Array[String]): Unit = {
+
+    //  创建Streaming context的上下文
+
     val conf = new SparkConf().setAppName(this.getClass.getName).setMaster("local[*]")
       // 设置没秒钟每个分区拉取kafka的速率
       .set("spark.streaming.kafka.maxRatePerPartition","100")
@@ -74,7 +77,7 @@ object Kafka2Streaming {
       rdd=>
         val offestRange = rdd.asInstanceOf[HasOffsetRanges].offsetRanges
         // 业务处理
-        rdd.map(_.value()).foreach(println)
+//        rdd.map(_.value()).foreach(println)
         // 将偏移量进行更新
         val jedis = JedisConnectionPool.getConnection()
         for (or<-offestRange){
@@ -104,12 +107,8 @@ object Kafka2Streaming {
           tup = (1, chargefee.toDouble, 0)
         }
       }
-
       tup
     }).reduce((x, y) => (x._1 + y._1, x._2 + y._2, x._3 + y._3))
-    res
-//    res.print()
-
 
       res.foreachRDD(rdd => {
         rdd.foreach(x =>{
@@ -121,10 +120,6 @@ object Kafka2Streaming {
           jedis.close()
         })
       })
-
-//    println(jedis.get("ALL_TIME_AMT"))
-
-//    (jedis.get("orderId"), jedis.get("chargefee"), jedis.get("SUCCESS_AMT"))
 
     // 启动
     ssc.start()
